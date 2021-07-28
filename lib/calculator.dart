@@ -20,6 +20,7 @@ class _CalculatorState extends State<Calculator> {
       if(str != '+' && str != '-' && str != '*' && str != '/'){
         if(str == 'C'){
           enablepoint = 0;
+          result ='0';
           equation = '';
         }
         else if(str == 'DEL'){
